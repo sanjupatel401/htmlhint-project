@@ -1,0 +1,256 @@
+/* 
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<      CSS  WORK    START>    >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+ */
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    background-color: cadetblue;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('bkg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    
+}   
+
+.box{
+width:39vw;
+height:70vh;
+margin: 90px 30px;
+position: relative;
+background: transparent;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+
+/* ++++++++++++++++++++++++++++++++++++++++++++ HTMLHINT LOGO CSS WORK +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+img{
+    width: 100px;
+    height: 100px;
+    background: transparent;
+}
+
+
+a{
+    text-decoration: none;
+    background: transparent;
+}
+
+/* =============================================INPUT FILED  CSS WORK============================================================== */
+
+
+.inputs{
+    width:30vw;
+    height: 10%;
+    background-color: #fff;
+    border-radius:30px;
+    margin:15px;
+    text-align: left;
+    box-shadow: inset 2px 2px 20px rgba(197, 193, 193, 0.8), inset -2px -2px 20px rgba(109, 106, 106, 0.8),
+                         2px 2px 10px rgba(122, 170, 128, 0.8),  -2px -2px 10px rgba(174, 214, 143, 0.8);
+    cursor: pointer;
+    position: relative;
+    
+  
+}
+
+.inputs input{
+
+    width: 80%;
+    height: 100%;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    font-family:monospace;
+    font-weight: 700;
+    background: transparent;
+   
+    
+
+}
+
+
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~BUTTON  CSS WORK~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+.btn{
+    width:200px;
+    height: 50px;
+    margin: 20px auto;
+    border: none;
+    outline: none;
+    background-color: green;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: 700;
+    font-family: monospace ;
+    font-style: oblique;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.svg{
+    width: 20px;
+    height: 20px;
+    margin: 0 12px;
+     
+}
+
+.error{
+    box-shadow: 2px 2px 30px red;
+   
+}
+
+
+
+.btn:hover{
+    color: white;
+    /* background:black; */
+    border: 3px  white  solid;
+}
+
+.fa{
+    margin: 0 12px;
+    background: transparent;
+}
+
+
+
+
+/* ***************************************MEDIA SCREEN  ( DEVICE WIDTH ADJUSTMENT)********************************************************* */
+
+@media screen and (max-width: 1100px){
+
+.container{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background: transparent;
+    background-size: contain;
+    
+
+}
+ .box{
+     width: 80vw;
+     height: 80vh;
+     
+ }
+
+ .inputs{
+    width: 90%;
+    height: 10%;
+ }
+ img{
+    width: 120px;
+    height: 120px;
+}
+
+}
+
+
+@media screen and (max-width: 700){
+
+    .container{
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        background: transparent;
+        background-size: cover;
+        
+    
+    }
+     .box{
+         width: 95vw;
+         height: auto;
+         
+     }
+    
+     .inputs{
+        width: 90%;
+        height: 15%;
+        font-size: 60px;
+     }
+     img{
+         width: 140px;
+         height: 140px;
+        
+     }
+    
+}
+@media screen and (max-width: 400){
+
+    .container{
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        background: transparent;
+        background-size: cover;
+        
+    
+    }
+     .box{
+         width: 100vw;
+         height: auto;
+         
+     }
+    
+     .inputs{
+        width: 98%;
+        height: 18%;
+        font-size: 60px;
+     }
+     img{
+         width: 180px;
+         height: 180px;
+        
+     }
+    
+}
+
+
+
+
+/* ---------------------------------------------------sweetalert-------------------------------------------\ */
+
+
+
+    .swal-modal{
+        background: #ffff;
+    }
+
+    .swal-title {
+        background-color: #ffff;
+        padding: 17px;
+        display: block;
+        margin: 22px;
+        text-align: center;
+        color: #61534e;
+      }
+
+    .swal-text {
+        background-color: #ffff;
+        padding: 17px;
+        display: block;
+        margin: 22px;
+        text-align: center;
+        color: #61534e;
+      }
+
+
+
+/*  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^    COMPLITED CSS WORK       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
